@@ -25,7 +25,7 @@ our @EXPORT = qw(&Consumer
 	
 );
 
-our $VERSION = sprintf '%2d.%02d', q$Revision: 1.2 $ =~ /(\d+)\.(\d+)/;
+our $VERSION = sprintf '%2d.%02d', q$Revision: 1.3 $ =~ /(\d+)\.(\d+)/;
 
 
 # Preloaded methods go here.
@@ -99,7 +99,7 @@ None by default.
 
 =head1 AUTHOR
 
-A. U. Thor, a.u.thor@a.galaxy.far.far.away
+T. M. Brannon, <tbone@cpan.org>
 
 =head1 SEE ALSO
 

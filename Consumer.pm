@@ -24,7 +24,8 @@ our @EXPORT_OK = ( @{ $EXPORT_TAGS{'all'} } );
 our @EXPORT = qw(&Consumer
 	
 );
-our $VERSION = '0.01';
+
+our $VERSION = sprintf '%2d.%02d', q$Revision: 1.2 $ =~ /(\d+)\.(\d+)/;
 
 
 # Preloaded methods go here.
@@ -44,7 +45,7 @@ __END__
 
 =head1 NAME
 
-Parse::RecDescent::Consumer - Perl extension for blah blah blah
+Parse::RecDescent::Consumer - reveal text matched through n token transitions.
 
 =head1 SYNOPSIS
 
